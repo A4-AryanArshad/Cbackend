@@ -2,11 +2,11 @@ const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
 const cookieParser = require('cookie-parser');
-const cardRoutes = require('./routes/cardRoutes');
+const cardRoutes = require('../routes/cardRoutes');
 
-const authRoutes = require('./routes/auth');
-const newsRoutes = require('./routes/newsRoutes');
-const blogRoutes = require('./routes/blogRoutes');
+const authRoutes = require('../routes/auth');
+const newsRoutes = require('../routes/newsRoutes');
+const blogRoutes = require('../routes/blogRoutes');
 
 const app = express();
 
